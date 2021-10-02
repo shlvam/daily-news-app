@@ -1,0 +1,85 @@
+{
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Gauri Khan admires her boys Aryan and AbRam as she offers a glimpse of their brotherly bonding time toget - Times of India",
+            "description": "AbRam Khan is loving every moment with big brother Aryan Khan and this latest photo by mommy Gauri Khan is proof.",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/gauri-khan-admires-her-boys-aryan-khan-and-abram-khan-as-she-offers-a-glimpse-of-their-brotherly-bonding-time-together-see-pic/articleshow/86583514.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-86582878,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-46706/86582878.jpg",
+            "publishedAt": "2021-09-28T11:06:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "PM Narendra Modi extends birthday wishes to Lata didi - Times of India",
+            "description": "As Legendary singer Lata Mangeshkar turned a year older, Prime Minister Narendra Modi took to his Twitter handle an",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/pm-narendra-modi-extends-birthday-wishes-to-lata-didi/articleshow/86583259.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-86583268,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-33036/86583268.jpg",
+            "publishedAt": "2021-09-28T10:59:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "HT Entertainment Desk",
+            "title": "KBC 13: Pratik Gandhi joins Pankaj Tripathi on new episode, watch him floor Amitabh Bachchan with Scam 1992 dialogue - Hindustan Times",
+            "description": "A new promo for Kaun Banega Crorepati season 13 shows Pratik Gandhi and Pankaj Tripathi as guests. Watch them impress Amitabh Bachchan.",
+            "url": "https://www.hindustantimes.com/entertainment/tv/kbc-13-pratik-gandhi-joins-pankaj-tripathi-on-new-episode-watch-him-floor-amitabh-bachchan-with-scam-1992-dialogue-101632823809213.html",
+            "urlToImage": "https://images.hindustantimes.com/img/2021/09/28/1600x900/pratik_Gandhi_kbc_1632823790967_1632823801279.png",
+            "publishedAt": "2021-09-28T10:48:24Z",
+            "content": "A new Shandaar Shukravaar episode promo for Kaun Banega Crorepati season 13 is out. The latest guests on the show will be actors Pankaj Tripathi and Pratik Gandhi.\r\nIn the promo, Pratik floors host A… [+1822 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Vicky Kaushal and rumoured girlfriend Katrina Kaif send Sunny Kaushal all their 'love' on his birthday - Times of India",
+            "description": "Vicky Kaushal’s brother Sunny Kaushal turned a year old and wishes have been pouring in from his celeb friends.",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/vicky-kaushal-and-rumoured-girlfriend-katrina-kaif-send-sunny-kaushal-all-their-love-on-his-birthday/articleshow/86581698.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-86582027,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-79322/86582027.jpg",
+            "publishedAt": "2021-09-28T10:03:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bollywood Hungama"
+            },
+            "author": "Bollywood Hungama",
+            "title": "Rubina Dilaik shares glimpses from Abhinav Shuklas birthday celebration in the Maldives - Bollywood Hungama",
+            "description": "Rubina Dilaik shares glimpses from Abhinav Shukla’s birthday celebration in the Maldives Bollywood News: Latest Bollywood News, Bollywood News Today, Bollywood Celebrity News, Breaking News, Celeb News, Celebrities News, Bollywood News Hindi, Hindi Bollywood …",
+            "url": "https://www.bollywoodhungama.com/news/features/rubina-dilaik-shares-glimpses-abhinav-shuklas-birthday-celebration-maldives/",
+            "urlToImage": "https://www.bollywoodhungama.com/wp-content/uploads/2021/09/rubi0.jpg",
+            "publishedAt": "2021-09-28T09:57:05Z",
+            "content": "Actor Abhinav Shukla jetted off to the Maldives with his wife Rubina Dilaik to celebrate his 39th birthday. The actor turned a year older yesterday and his wife made sure to make his day the best. Sh… [+1382 chars]"
+        }
+    ]
+}
+
+business
+entertainment
+general
+health
+science
+sports
+technology
+
+
+
+
+
+
