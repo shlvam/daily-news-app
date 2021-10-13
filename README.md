@@ -1,3 +1,6 @@
+# About
+A single page web app made using react.js which shows current news, current weather using user's geolocation and an analog clock using  system clock. Implemented infinite scrolling for news items for different categories of news. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
