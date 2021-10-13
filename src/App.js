@@ -7,12 +7,14 @@ import {
 import LoadingBar from 'react-top-loading-bar'
 
 import './App.css';
+import Clock from './components/Clock';
 import Navbar from './components/Navbar';
 import News from './components/News';
 import Weather from './components/Weather';
 
 export class App extends Component {
-  apiKey = process.env.REACT_APP_NEWS_API;
+  NewsApiKey = process.env.REACT_APP_NEWS_API;
+  weatherApiKey = process.env.REACT_APP_WEATHER_API;
 
   // state variable for top loading bar
   state = {
@@ -44,20 +46,21 @@ export class App extends Component {
                 />
                 <div className="container my-3">
                   <Switch>
-                    <Route exact path="/"><News key="general/" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="general" /></Route>
-                    <Route path="/business"><News key="business" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="business" /></Route>
-                    <Route path="/entertainment"><News key="entertainment" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="entertainment" /></Route>
-                    <Route path="/general"><News key="general" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="general" /></Route>
-                    <Route path="/health"><News key="health" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="health" /></Route>
-                    <Route path="/science"><News key="science" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="science" /></Route>
-                    <Route path="/sports"><News key="sports" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="sports" /></Route>
-                    <Route path="/technology"><News key="technology" apiKey={this.apiKey} setProgress={this.setProgress} pageSize={20} category="technology" /></Route>
+                    <Route exact path="/"> <News key="general/" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="general" /></Route>
+                    <Route exact path="/business"><News key="business" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="business" /></Route>
+                    <Route exact path="/entertainment"><News key="entertainment" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="entertainment" /></Route>
+                    <Route exact path="/general"><News key="general" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="general" /></Route>
+                    <Route exact path="/health"><News key="health" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="health" /></Route>
+                    <Route exact path="/science"><News key="science" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="science" /></Route>
+                    <Route exact path="/sports"><News key="sports" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="sports" /></Route>
+                    <Route exact path="/technology"><News key="technology" NewsApiKey={this.NewsApiKey} setProgress={this.setProgress} pageSize={20} category="technology" /></Route>
                   </Switch>
                 </div>
               </Router>
             </div>
             <div className="col-sm-4" style={{float: "left"}}>
-              <Weather />
+              <Clock />
+              <Weather weatherApiKey={this.weatherApiKey} />
             </div>
           </div>
         </div>

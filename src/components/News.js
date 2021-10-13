@@ -4,12 +4,13 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
 import NewsItem from './NewsItem';
 import Loader from './Loader';
+import { country } from './Weather';
 
 export class News extends Component {
     articles = [];
 
     static defaultProps = {
-        country: 'in',
+        country: country,
         pageSize: 10,
         category: 'general'
 
@@ -23,7 +24,7 @@ export class News extends Component {
 
     constructor(props) {
         super(props);
-        console.log("Hello Constructor");
+        // console.log("Hello Constructor");
         this.state = {
             articles: this.articles,
             loading: true,
@@ -36,7 +37,7 @@ export class News extends Component {
     async componentDidMount() {
         let setProgress= this.props.setProgress;
         setProgress(10);
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&pageSize=${this.props.pageSize}&apiKey=${this.props.apiKey}&page=${this.state.page}&category=${this.props.category}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&pageSize=${this.props.pageSize}&apiKey=${this.props.NewsApiKey}&page=${this.state.page}&category=${this.props.category}`;
         this.setState({
             loading: true
         });
@@ -60,7 +61,7 @@ export class News extends Component {
             page: this.state.page+1
         });
 
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&pageSize=${this.props.pageSize}&apiKey=${this.props.apiKey}&page=${this.state.page}&category=${this.props.category}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&pageSize=${this.props.pageSize}&apiKey=${this.props.NewsApiKey}&page=${this.state.page}&category=${this.props.category}`;
 
         let data = await fetch(url);
         let parsedData = await data.json();     // remember bracket
@@ -76,7 +77,7 @@ export class News extends Component {
         // console.log("Hello Render");
         return (
             <div>
-                <h1 className="text-center">Todays News</h1>
+                <h1 className="text-center" style={{color: "red"}}>Todays News</h1>
                 {this.state.loading && <Loader />}
                 <InfiniteScroll
                     dataLength={this.state.articles.length}
